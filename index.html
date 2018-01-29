@@ -2,16 +2,14 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>N.H.</title>
+	<title>John Sibly</title>
 	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta name="robots" content="all" />
 	<meta name="MSSmartTagsPreventParsing" content="true" />
 	<meta http-equiv="imagetoolbar" content="false" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->	
+
 	<style>
 		* { padding: 0; margin: 0; }
 		body { background-color: #333; }
@@ -19,27 +17,38 @@
 		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
 		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
 		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
+		#about { width: 360px; padding: 0 0 0 0px; margin: 50px auto 0 50px !important; }
 		@media (max-width: 767px) {
 			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
 			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
 			background-image { opacity: 0.2; }
 		}
+		.footer {
+			position: fixed;
+			font-family: Helvetica; 
+			font-size: 10px; 
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			color: white;
+			text-align: left;
+		}
 	</style>
-</head>	
-    
+</head>	   
 <body>
 
 <!-- swap out for a logo -->
-<div id="monogram">
+<!-- <div id="monogram">
 	<img src="monogram.png" />
-</div>
+</div> -->
 
-<!-- swap out for information about yourself -->
 <div id="about">
-	<p>Naz Hamid is the founder and principal of <a href="http://weightshift.com">Weightshift</a>, a design studio in San Francisco and Chicago. Aside from client work, projects include the community-oriented site <a href="http://interhoods.org">Interhoods</a> and mobile web application, <a href="http://sitby.us">SitBy.Us</a>. The two projects codenamed <em>Suplex</em> and <em>Sleeperhold</em> are aiming to be launched in 2011.</p>
-	<p>He writes about design and tangential topics at <a href="http://weightshift.com/memo">Memo</a>, writes in 140 characters at <a href="http://twitter.com/weightshift">Twitter</a>, posts photos to <a href="http://flickr.com/absenter"/>Flickr</a>, creates 400x300px works-in-progress on <a href="http://dribbble.com/weightshift">Dribbble</a>, sometimes makes moving pictures on <a href="http://vimeo.com/weightshift">Vimeo</a>, records items of interest at <a href="http://svpply.com/weightshift">Svpply</a>, listens to all his music on <a href="http://www.rdio.com/people/weightshift/">Rdio</a> and answers the occasional question on <a href="http://www.quora.com/Naz-Hamid">Quora</a>. He also makes music as <a href="http://murdersandmysteries.com">Murders & Mysteries</a> and released an album in 2010.</p>
-	<p>A <a href="http://en.wikipedia.org/wiki/Third_culture_kid">third-culture kid</a>, Naz has lived on three continents and in three countries. He currently lives in San Francisco, California, a place where he feels comfortable in his own skin.</p> 
+	<p>John Sibly is a <a href="https://www.linkedin.com/in/johnsibly">Development Manager / Scrum Master</a>, currently based at <a href="http://www.nowtv.com">NOW TV</a> in London where he loves delivering great software across a variety of platforms.</p>
+	<p>Occasionally appearing on <a href="https://twitter.com/JohnSibly">Twitter</a> and posting photos to <a href="https://www.flickr.com/people/johnsibly">Flickr</a>, when a full time developer he was a little more active on <a href="https://stackoverflow.com/users/1078/john-sibly"/>Stackoverflow</a>, with a few experimental projects on <a href="https://github.com/johnsibly">GitHub</a>.</p>
+	<p>If he can find any free time in between raising his three kids, he likes to keep up to date with all sorts of tech, including releasing a couple of iPhone apps on <a href="https://itunes.apple.com/gb/developer/john-sibly/id361412431">iTunes</a></p> 
+</div>
+<div class="footer">
+	Thanks to Naz Hamid for the template https://github.com/weightshift/The-Personal-Page
 </div>
 
 <!--include jquery & backstretch-->
@@ -48,12 +57,21 @@
 <script type="text/javascript">
 $(function(){
      $(window).resize(function(){
-         if($(this).width() >= 767){
-             $.backstretch("nh_bg.jpg", {speed: 150});
+         if($(this).width() >= 77){
+             $.backstretch("js_bg.jpg", {speed: 150});
          }
       })
       .resize();//trigger resize on page load
 });
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112959173-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112959173-1');
 </script>
 
 </body>	
