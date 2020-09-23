@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+John Sibly is an Engineering Manager, currently based at [DAZN](https://careers.dazn.com/) in London where he loves delivering great software across a variety of platforms.
 
-You can use the [editor on GitHub](https://github.com/johnsibly/johnsibly.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Occasionally appearing on [Twitter](https://twitter.com/JohnSibly) and posting photos to [Flickr](https://www.flickr.com/people/johnsibly), when a full time developer he was a little more active on [Stackoverflow](https://stackoverflow.com/users/1078/john-sibly), with a few experimental projects on [GitHub](https://github.com/johnsibly).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If he can find any free time in between raising his three kids, he likes to keep up to date with all sorts of tech, including releasing a couple of iPhone apps on [iTunes](https://itunes.apple.com/gb/developer/john-sibly/id361412431)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnsibly/johnsibly.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![John Sibly](http://sibly.co.uk/js_bg.jpg)
