@@ -1,7 +1,48 @@
-John Sibly is an Engineering Manager, currently based at [DAZN](https://careers.dazn.com/) in London where he loves delivering great software across a variety of platforms.
+=============================
 
-Occasionally appearing on [Twitter](https://twitter.com/JohnSibly) and posting photos to [Flickr](https://www.flickr.com/people/johnsibly), when a full time developer he was a little more active on [Stackoverflow](https://stackoverflow.com/users/1078/john-sibly), with a few experimental projects on [GitHub](https://github.com/johnsibly).
+The Personal Page
+Version 1.1
+January 19, 2010
+Created by Naz Hamid
+Original: www.nazhamid.com
+License: MIT/GPL
 
-If he can find any free time in between raising his three kids, he likes to keep up to date with all sorts of tech, including releasing a couple of iPhone apps on [iTunes](https://itunes.apple.com/gb/developer/john-sibly/id361412431)
+https://github.com/weightshift/The-Personal-Page
+http://weightshift.com/memo/the-personal-page
 
-![John Sibly](http://sibly.co.uk/js_bg.jpg)
+The site makes use of the jQuery Backstretch plugin 
+from Scott Robbin. Gracias.
+http://srobbin.com/blog/jquery-plugins/jquery-backstretch/
+
+=============================
+
+This simple one-page website is a way for people to have a very quick and easy personable website that aggregates your activity and positions a simple logo, a portrait and some description text in a nicely-formatted manner. This is licensed under the MIT and GPL licenses. 
+
+See the original: http://nazhamid.com
+
+See others' versions:
+http://jenschuetz.com/
+http://timlum.com
+
+Usage is simple:
+
+1) You'll need to edit the index.html file with your own text.
+
+2) Upload your own logo in place of monogram.png. Your initials will likely not be NH, but if they are, be smart and use your own little monogram/logo. 
+
+3) Upload your own portrait as the background. Don't impersonate me!
+
+4) Upload all the files, including the MIT and GPL licences. 
+
+5) You can switch the position of the monogram and text as seen in timlum.com. 
+
+=============================
+Change Notes:
+=============================
+
+v1.1
+— Added responsive design for mobile devices
+— Mobile devices no longer load the background image to save the bandwidth and performance hit.
+
+
+
